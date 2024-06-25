@@ -1,0 +1,478 @@
+:root{
+    --primary-color:#B20000;
+    --secondary-color:  #070605;
+    --accent-color1: #F80000;
+    --accent-color2: #A6A6A6;
+}
+/* fonts */
+h1,h2,h3,h4,h5{
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 500;
+}
+p , a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10pt;
+    text-align: justify;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #222222;
+}
+/* header */
+header{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    background-color: #B20000;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr 33%;
+    padding: 50px 20px;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+.logo img{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.menu a{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.menu a:hover{
+    transform: scale(1.2);
+}
+.hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.hours h1, p{
+    flex-wrap: wrap;
+    text-align: right;
+    color: #fff;
+    width: 100%;
+    line-height: 2cap;
+    padding-bottom: 10px;
+}
+.hours h1{
+    font-size: 25pt;
+}
+.hours p{
+    font-size: 12pt;
+}
+/* square images */
+.square-images{
+    display:flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding:50px 20px;
+    margin:0;
+}
+.square-images img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    aspect-ratio: 4 / 3;
+    height: auto;
+}
+.menutitle{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.menutitle h2{
+    color: white;
+    font-size: 40pt;
+    padding: 50px 0;
+}
+/* LUNCH + REGULAR MENU------------------------ */
+/* Style the tab */
+.pdfmenu {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+#pdfviewer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    aspect-ratio: 9/5;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: #F80000;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #F80000;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 20px;
+    color:#F80000;
+    background-color: #ffffff;
+    width: 20%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color:#898989;
+    color: #ffffff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    text-decoration: overline;
+    color:#ffffff;
+    background-color:#B20000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #F80000;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color:#272727;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tabcontent p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 12pt;
+    padding: 100px 0;
+}
+/* radius-image */
+.radius-image{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 50px;
+    background-color: #070605;
+}
+
+.radius-image img{
+    aspect-ratio: 4 / 4;
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    border-radius: 50%;
+    margin:auto;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #B20000;
+    margin:0;
+}
+.footerlogo{
+    display: flex;
+    max-width: 20%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footerlogo img{
+    width: 40%;
+}
+.contacts{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.socialhere{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#icon{
+    padding: 0 20px;
+    flex: 1;
+}
+#icon a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#icon h6{
+    font-size: 12pt;
+    padding-bottom: 10px;
+}
+#icon p{
+    font-size: 9pt;
+    letter-spacing: 1pt;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+/* animation */
+
+h1, h2, h3, h6 {
+    animation: fadeInFromBottom 1s ease-in forwards; 
+    opacity: 0; 
+}
+@keyframes fadeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+p, a{
+    animation: slideInFromTop 1s ease-in forwards;
+}
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+img{
+    animation: fadeIn 1s ease-in forwards;
+
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 (fully transparent) */
+    }
+    to {
+        opacity: 1; /* End with opacity 1 (fully visible) */
+    }
+}
+
+/* mobile view ---------------------------------*/
+@media (max-width: 768px){
+    /* header */
+header{
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.logo img{
+    width: 50%;
+
+}
+.menu{
+    flex-direction: row;
+}
+.menu a{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 10px 20px;
+}
+.menu a img{
+    width: 60%;
+}
+.menu a img:hover{
+    transform: scale(1.2);
+}
+
+.hours h1, p{
+    text-align: center;
+}
+.hours h1{
+    font-size: 15pt;
+}
+.hours p{
+    font-size: 9pt;
+}
+/* square images */
+.square-images{
+    flex-direction: column;
+    max-width: 100%;
+    padding:10px 15px;
+    margin:0;
+}
+.square-images img{
+    max-width: 70%;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    aspect-ratio: 5 / 4;
+}
+.menutitle h2{
+    font-size: 20pt;
+}
+/* LUNCH + REGULAR MENU------------------------ */
+/* Style the tab */
+
+.tab {
+    max-width: 90%;
+    padding: 20px 0;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center,
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    padding: 10px;
+    font-size: 9pt;
+    margin: 5px;
+    width: 30%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color:#898989;
+    color: #ffffff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    text-decoration: overline;
+    color:#ffffff;
+    background-color:#B20000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    max-width: 90%;
+}
+
+.tabcontent p {
+    font-size: 10pt;
+    padding: 50px 0;
+}
+/* radius-image */
+.radius-image{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 40px;
+}
+
+.radius-image img{
+    height: auto;
+    padding: 0 10px;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 30px 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footerlogo{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footerlogo img{
+    width: 100%;
+}
+.contacts{
+    max-width: 100%;
+}
+.socialhere{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#icon{
+    padding: 0 20px;
+    flex: 1;
+}
+#icon a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#icon a:hover{
+    color:#898989;
+}
+#icon h6{
+    font-size: 10pt;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#icon p{
+    font-size: 9pt;
+    letter-spacing: 1pt;
+    text-align: center;
+    line-height: 1.2rem;
+}
+}
