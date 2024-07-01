@@ -59,6 +59,7 @@ header{
 }
 .menu a{
     width: 100%;
+    justify-content: center;
     align-items: center;
     align-content: center;
     margin: auto;
@@ -70,7 +71,12 @@ header{
     border-radius: 15%;
 }
 .menu a img:hover{
-    background-color: #F80000;
+    background-color: #2e2e2e;
+    padding:10px;
+    border-radius: 15%;
+    border-style: solid;
+    border-color:#F80000;
+    border-width: 1pt;
 }
 .hours{
     display: flex;
@@ -344,15 +350,16 @@ header{
 }
 .logo img{
     width: 25%;
-
 }
 .menu{
-    flex-direction: row;
+    flex-direction: column;
 }
 .menu a{
     width: 100%;
+    justify-content: center;
     align-items: center;
     align-content: center;
+    margin: auto;
 }
 .menu a img{
     width: 40%;
@@ -361,7 +368,12 @@ header{
     
 }
 .menu a img:hover{
-    background-color: #F80000;
+    background-color: #2e2e2e;
+    padding:10px;
+    border-radius: 15%;
+    border-style: solid;
+    border-color:#F80000;
+    border-width: 1pt;
 }
 
 .hours h1, p{
