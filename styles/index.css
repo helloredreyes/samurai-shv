@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#B20000;
+    --primary-color:#630000;
     --secondary-color:  #070605;
     --accent-color1: #F80000;
     --accent-color2: #A6A6A6;
@@ -175,7 +175,7 @@ header {
 }
 #history-here{
     max-width: 60%;
-    background-color: #B20000;
+    background-color: #630000;
     padding: 50px;
     align-content: center;
 }
@@ -204,7 +204,7 @@ header {
     display: flex;
     max-width: 100%;
     flex-direction: row;
-    background-color: #B20000;
+    background-color: #630000;
     padding: 50px 100px;
     justify-content: center;
     align-items: center;
@@ -288,7 +288,7 @@ footer{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #B20000;
+    background-color: #630000;
     margin:0;
 }
 .footerlogo{
@@ -439,6 +439,7 @@ img{
         letter-spacing: 0.5pt;
         padding: 0 50px;
         padding-bottom: 50px;
+        line-height: 2rem;
     }
     /* main---------------- */
     .redpart{
@@ -554,7 +555,7 @@ img{
         display: flex;
         max-width: 100%;
         flex-direction: column;
-        background-color: #B20000;
+        background-color: #630000;
         padding: 20px 30px;
         justify-content: center;
         align-items: center;

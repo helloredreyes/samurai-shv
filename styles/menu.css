@@ -29,7 +29,7 @@ header{
     display: flex;
     max-width: 100%;
     flex-direction: row;
-    background-color: #B20000;
+    background-color: #630000;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -150,7 +150,7 @@ header{
 
 .tab {
     overflow: hidden;
-    background-color: #F80000;
+    background-color: #630000;
     max-width: 100%;
     margin: auto;
     justify-content: center;
@@ -172,7 +172,7 @@ header{
     transition: 0.3s;
     font-size: 17px;
     margin: 20px;
-    color:#F80000;
+    color:#630000;
     background-color: #ffffff;
     width: 20%;
     justify-content: center;
@@ -190,7 +190,7 @@ header{
 .tab button.active {
     text-decoration: overline;
     color:#ffffff;
-    background-color:#B20000;
+    background-color:#630000;
 }
 
 /* Style the tab content */
@@ -242,7 +242,7 @@ footer{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #B20000;
+    background-color: #630000;
     margin:0;
 }
 .footerlogo{
