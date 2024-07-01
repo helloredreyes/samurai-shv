@@ -446,8 +446,8 @@ header{
     height: auto;
     padding: 20px 20px;
 }
-   /* footer */
-   footer{
+/* footer */
+footer{
     display: flex;
     flex-direction: column;
     max-width: 100%;
