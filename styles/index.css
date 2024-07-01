@@ -88,7 +88,7 @@ header {
     padding:0;
 }
 .menu a img {
-    width: 35%;
+    width: 55%;
     padding:0;
     margin:0;
 }
@@ -427,12 +427,12 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex: 1;
+        max-width: 100%;
         margin: 20px 0;
         padding:0;
     }
     .menu a img {
-        width: 30%;
+        width: 35%;
         padding:0;
         margin:0;
     }
@@ -447,8 +447,8 @@ img{
     .header-content h1 {
         margin: 0;
         text-align: center;
-        font-size: 13pt;
-        padding: 20px 50px;
+        font-size: 12pt;
+        padding: 20px 20px;
     }
     .header-content p {
         margin: 0;
