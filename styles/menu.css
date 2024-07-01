@@ -446,55 +446,55 @@ header{
     height: auto;
     padding: 20px 20px;
 }
-/* footer */
-footer{
+/* CSS for footer */
+footer {
     display: flex;
+    max-width: 100%;
     flex-direction: column;
-    max-width: 100%;
-    padding: 20px 20px;
-}
-.footerlogo{
-    max-width: 100%;
-}
-.footerlogo a{
-    max-width: 100%;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin:auto;
 }
-.contacts{
-    max-width: 100%;
+
+.footerlogo {
+    max-width: 30%;
+}
+
+.footerlogo img {
+    width: 100%;
+}
+
+.contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    align-content: center;
-}
-.socialhere{
     max-width: 100%;
+}
+
+.socialhere {
     display: flex;
-    flex-direction: column;
+    max-width: 100%;
+    flex-direction: column; 
+    text-align: center;
 }
-#icon{
-    padding: 0 20px;
-    flex: 1;
-}
-#icon a{
-    text-decoration: none;
-    color: white;
+
+#icon {
     padding: 10px;
+    width: 100%;
 }
-#icon h6{
-    font-size: 9pt;
-    padding-bottom: 10px;
-    text-align: left;
+
+#icon a {
+    text-decoration: none;
+    display: block;
 }
-#icon p{
-    font-size: 8pt;
-    letter-spacing: 1pt;
-    text-align: left;
-    line-height: 1rem;
+#icon h6 {
+    font-size: 10pt;
+    text-align: center;
+}
+
+#icon p {
+    font-size: 8pt; 
+    line-height: 1.2;
+    text-align: center;
 }
 }
