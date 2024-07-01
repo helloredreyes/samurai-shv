@@ -22,7 +22,7 @@ p , a {
     padding:0;
 }
 body{
-    background-color: #222222;
+    background-color:  #181818;
 }
 /* header */
 header{
@@ -45,7 +45,7 @@ header{
     margin: auto;
 }
 .logo img{
-    width: 100%;
+    width: 25%;
     align-items: center;
     align-content: center;
 }
@@ -62,9 +62,11 @@ header{
     align-items: center;
     align-content: center;
     margin: auto;
-    padding: 10px 0;
+    padding: 20px 0;
 }
-
+.menu a img{
+    width: 80%;
+}
 .menu a:hover{
     transform: scale(1.2);
 }
@@ -85,6 +87,7 @@ header{
 }
 .hours h1{
     font-size: 25pt;
+    font-weight:300;
 }
 .hours p{
     font-size: 12pt;
@@ -96,16 +99,21 @@ header{
     max-width: 100%;
     padding:50px 20px;
     margin:0;
+    background-color: black;
+}
+#Regular{
+    display: flex;
+    max-width: 100%;
 }
 .square-images img{
-    width: 100%;
+    width: 25%;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-direction: column;
     margin: auto;
-    padding: 50px;
-    aspect-ratio: 4 / 3;
+    padding: 20px 20px;
+    aspect-ratio: 4 / 2;
     height: auto;
 }
 .menutitle{
@@ -114,11 +122,13 @@ header{
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: black;
 }
 .menutitle h2{
-    color: white;
-    font-size: 40pt;
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
     padding: 50px 0;
+    letter-spacing: 1pt;
 }
 /* LUNCH + REGULAR MENU------------------------ */
 /* Style the tab */
@@ -127,13 +137,11 @@ header{
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-bottom: 50px;
+    padding:0;
 }
 #pdfviewer {
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
-    margin: auto;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -143,8 +151,8 @@ header{
 .tab {
     overflow: hidden;
     background-color: #F80000;
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: auto;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -167,6 +175,9 @@ header{
     color:#F80000;
     background-color: #ffffff;
     width: 20%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* Change background color of buttons on hover */
@@ -188,7 +199,7 @@ header{
     border-style: solid;
     border-width: 1pt;
     border-color: #F80000;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     background-color:#272727;
     justify-content: center;
@@ -201,21 +212,24 @@ header{
     text-align: center;
     font-size: 12pt;
     padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 /* radius-image */
 .radius-image{
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    padding: 50px;
+    padding: 100px 50px;
     background-color: #070605;
 }
 
 .radius-image img{
-    aspect-ratio: 4 / 4;
-    width: 100%;
+    aspect-ratio: 4 / 3;
+    width: 25%;
     height: auto;
-    padding: 0 20px;
+    padding: 20px 20px;
     border-radius: 50%;
     margin:auto;
 }
@@ -262,6 +276,9 @@ footer{
     text-decoration: none;
     color: white;
     padding: 20px;
+}
+#icon a:hover{
+    color:#898989;
 }
 #icon h6{
     font-size: 12pt;
@@ -324,7 +341,7 @@ header{
     padding: 20px;
 }
 .logo img{
-    width: 50%;
+    width: 25%;
 
 }
 .menu{
@@ -335,7 +352,7 @@ header{
     align-items: center;
     align-content: center;
     margin: auto;
-    padding: 10px 20px;
+    padding: 50px 20px;
 }
 .menu a img{
     width: 60%;
@@ -357,24 +374,25 @@ header{
 .square-images{
     flex-direction: column;
     max-width: 100%;
-    padding:10px 15px;
+    padding:30px 15px;
     margin:0;
 }
 .square-images img{
-    max-width: 70%;
+    width: 80%;
     flex-direction: column;
     margin: auto;
     padding: 20px;
-    aspect-ratio: 5 / 4;
+    aspect-ratio: 5 / 3;
 }
 .menutitle h2{
-    font-size: 20pt;
+    font-size: 16pt;
+    font-weight: 300;
 }
 /* LUNCH + REGULAR MENU------------------------ */
 /* Style the tab */
 
 .tab {
-    max-width: 90%;
+    max-width: 100%;
     padding: 20px 0;
     margin: auto;
     justify-content: center;
@@ -415,37 +433,44 @@ header{
 /* radius-image */
 .radius-image{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 100%;
-    padding: 40px;
+    row-gap: 20px;
+    padding: 20px 20px;
 }
 
 .radius-image img{
+    display: flex;
+    width:60%;
+    flex-direction: column;
     height: auto;
-    padding: 0 10px;
+    padding: 20px 20px;
 }
-/* footer */
-footer{
+   /* footer */
+   footer{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    padding: 30px 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    padding: 20px 20px;
 }
 .footerlogo{
-    display: flex;
     max-width: 100%;
+}
+.footerlogo a{
+    max-width: 100%;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     align-content: center;
-}
-.footerlogo img{
-    width: 100%;
+    margin:auto;
 }
 .contacts{
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .socialhere{
     max-width: 100%;
@@ -459,20 +484,17 @@ footer{
 #icon a{
     text-decoration: none;
     color: white;
-    padding: 20px;
-}
-#icon a:hover{
-    color:#898989;
+    padding: 10px;
 }
 #icon h6{
-    font-size: 10pt;
+    font-size: 9pt;
     padding-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 #icon p{
-    font-size: 9pt;
+    font-size: 8pt;
     letter-spacing: 1pt;
-    text-align: center;
-    line-height: 1.2rem;
+    text-align: left;
+    line-height: 1rem;
 }
 }
