@@ -65,10 +65,12 @@ header{
     padding: 20px 0;
 }
 .menu a img{
-    width: 80%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15%;
 }
-.menu a:hover{
-    transform: scale(1.2);
+.menu a img:hover{
+    background-color: #F80000;
 }
 .hours{
     display: flex;
@@ -351,14 +353,15 @@ header{
     width: 100%;
     align-items: center;
     align-content: center;
-    margin: auto;
-    padding: 50px 20px;
 }
 .menu a img{
-    width: 60%;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15%;
+    
 }
 .menu a img:hover{
-    transform: scale(1.2);
+    background-color: #F80000;
 }
 
 .hours h1, p{
