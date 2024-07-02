@@ -22,14 +22,14 @@ p , a {
     padding:0;
 }
 body{
-    background-color:  #181818;
+    background-color:  #ffffff;
 }
 /* header */
 header{
     display: flex;
     max-width: 100%;
     flex-direction: row;
-    background-color: #630000;
+    background-color:#630000;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -74,7 +74,7 @@ header{
     background-color: #2e2e2e;
     border-radius: 15%;
     border-style: solid;
-    border-color:#F80000;
+    border-color:#630000;
     border-width: 1pt;
 }
 .hours{
@@ -106,7 +106,6 @@ header{
     max-width: 100%;
     padding:50px 20px;
     margin:0;
-    background-color: black;
 }
 #Regular{
     display: flex;
@@ -229,7 +228,7 @@ header{
     flex-direction: row;
     max-width: 100%;
     padding: 100px 50px;
-    background-color: #070605;
+    background-color:#fff;
 }
 
 .radius-image img{
